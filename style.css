@@ -15,14 +15,15 @@ h1 {
     z-index: 2;
 }
 
-#blur {
+/* Blur effect to use Flow Field as a background of a website */
+/* #blur {
     height: 100%;
     width: 100%;
     position: absolute;
     z-index: 2;
     backdrop-filter: blur(0.2vmax);
     -webkit-backdrop-filter: blur(0.2vmax);
-  }
+  } */
 
 canvas {
     background: black;
