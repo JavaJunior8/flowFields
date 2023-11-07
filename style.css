@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:18px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+#blur {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    backdrop-filter: blur(0.2vmax);
+    -webkit-backdrop-filter: blur(0.2vmax);
+  }
+
+canvas {
+    background: black;
+    position: absolute;
+}
